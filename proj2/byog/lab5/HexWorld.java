@@ -12,4 +12,18 @@ import java.util.Random;
  * Draws a world consisting of hexagonal regions.
  */
 public class HexWorld {
+
+    public static void addHexagon(int n){
+        int i = 0 ;
+        if(n == 0) return ;
+        while(i<n-1){
+            System.out.println(" ");
+            i++;
+        }
+    }
+
+    public static void main(String[] args) {
+
+    }
+
 }
